@@ -23,10 +23,12 @@ public class Main extends Menu{
         Menu menu = new Menu();
 
         // panggil connection sql
+        // Note the password used here is my sql password, if you would like to test the program please use your sql account password
+        // don't forget to copy and paste the sql code so that you can test the program properly
         main.connection();
         String url = "jdbc:mysql://localhost:3306/bioskop2";
         String user = "root";
-        String password = "reinhart06";
+        String password = "";
 
         Scanner scan = new Scanner(System.in);
         int choice;
